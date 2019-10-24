@@ -10,7 +10,7 @@ var imageData = ''
 rp(wz).then(body => {
     strHtml = body
     strHtml.replace(/\"thumbURL\"\:\s*\"(.*?)\"/g, function ($0, $1) {
-        results.push($1)
+        results.push($1 + 'mikimikimikimikimiki')
         return $0
     })
     results.slice(0, 10).forEach(url => {
