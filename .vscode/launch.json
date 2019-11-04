@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "爬虫",
-            "program": "${workspaceFolder}/app.js"
+            "program": "${workspaceFolder}/zhihu.js"
         }
     ]
 }
